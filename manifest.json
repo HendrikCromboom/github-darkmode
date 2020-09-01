@@ -1,0 +1,23 @@
+{
+  "name": "Github Darkmode",
+  "Description": "Darkmode for Github",
+  "Version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "./github16.png",
+    "32": "./github32.png",
+    "64": "./github64.png",
+    "128": "./github128.png"
+  },
+  "background": {
+    "scripts": ["./background.js"]
+  },
+  "option_page": "./options.html",
+  "browser_action": {
+    "default_popup": "./popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "https://www.github.com/*"
+    ]
+}
